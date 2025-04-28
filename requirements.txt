@@ -2,3 +2,4 @@ fastapi
 uvicorn
 ytmusicapi
 mangum
+python-multipart
