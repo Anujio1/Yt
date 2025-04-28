@@ -1,6 +1,4 @@
-fastapi===0.115.8
-uvicorn===0.34.0
-ytmusicapi===1.10.1
-fastapi[standard]
-uvicorn[standard]
-mangum>=0.17.0
+fastapi
+uvicorn
+ytmusicapi
+mangum
