@@ -1,13 +1,15 @@
 {
   "version": 2,
   "functions": {
-    // Pin the official Python builder
     "api/index.py": {
       "runtime": "vercel-python@3.1.7",
-      "maxDuration": 30          // optional
+      "maxDuration": 30
     }
   },
   "routes": [
-    { "src": "/(.*)", "dest": "api/index.py" }
+    {
+      "src": "/(.*)",
+      "dest": "api/index.py"
+    }
   ]
 }
